@@ -60,6 +60,14 @@ main
 figure
 {
     border: 2px solid black;
-    display: none;
+  
 }
-
+#operatorTable
+{
+    background-color: lightsteelblue;
+    display: block;
+}
+#operatorTable, #operatorTable thead tr th, #operatorTable tbody tr td
+{
+    border: 1px black solid;
+}

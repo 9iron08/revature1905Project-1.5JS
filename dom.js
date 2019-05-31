@@ -28,9 +28,9 @@ btnVarTog.addEventListener("click", () =>
 {
     //get element that will be changed
     let exampleText = document.getElementById('figureVar')
-    clicked = !clicked //toggle clicked boolean
+    clickedVar = !clickedVar //toggle clicked boolean
     //test whether clicked is true or false
-    if (clicked)
+    if (clickedVar)
     {
         //if true show the example for type
         exampleText.style.display='block';
