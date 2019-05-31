@@ -8,8 +8,27 @@ main
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
 }
+.singleGrid
+{
+    grid-template-columns: 1fr;
+}
+header
+{
+    position: sticky;
+    top:0px;
+    left:0px;
+    background-color: salmon;
+    height:40px;
+}
+nav
+{
+    position: sticky;
+    top:40px;
+    left:20px;
+}
 #navBar
 {
+  
     list-style: none;
     background-color:lightcoral;
 }
@@ -45,23 +64,30 @@ main
     text-align: center;
     margin-top: 0%;
 }
-.info
+.info, .stateList
 {
     background-color: yellow; 
     margin: 0px 5%;
     display: block;
     margin-bottom: 5%;
 }
+.stateList>li
+{
+    font-weight: bold;
+}
 .gridContainer
 {
     min-height: 320px;
     margin:5% 10% 10% 10%;
-    border: 2px solid black;
+    border: 10px double maroon;
+}
+.DOMfigure
+{
+    display: none;
 }
 figure
 {
     border: 2px solid black;
-    display: none;
 }
 .buttonExample
 {
@@ -81,7 +107,7 @@ figure
 #tableContainer
 {
     align-content: center;
-
+    margin-left: 10%;
 }
 thead, table, tbody, tr
 {
@@ -91,4 +117,8 @@ th, td
 {
     width: 20%;
     text-align: center;
+}
+.headerExampleText
+{
+    margin-left: 5%;
 }
