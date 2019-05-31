@@ -35,17 +35,18 @@
         </p>
     
         <!-- Use JavaScript to show examples -->
+        <h4>Example: if else statements</h4>
         <figure>
             <figcaption>
                 <pre>
                     <code>
-                        if(x = 5) {
-                            console.log("Good Morning");
-                        } else if {
-                            console.log("Good Afternoon");
-                        } else {
-                            console.log("Good Night");
-                        }
+    if(x = 5) {
+        console.log("Good Morning");
+    } else if {
+        console.log("Good Afternoon");
+    } else {
+        console.log("Good Night");
+    }
                     </code>
                 </pre>
             </figcaption>
@@ -54,11 +55,35 @@
     <div class="gridContainer">
         
         <!-- Use JavaScript to show examples -->
+        <h4>Example: Switch</h4>
+        <div>The getDay() method returns the weekday as a number between 0 and 6.</div>
         <figure>
             <figcaption>
                 <pre>
                     <code>
-                        
+        switch (new Date().getDay()) {
+            case 0:
+                day = "Sunday";
+                break;
+            case 1:
+                day = "Monday";
+                break;
+            case 2:
+                day ="Tuesday";
+                break;
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            case 6:
+                day = "Saturday";
+                break;
+        }
                     </code>
                 </pre>
             </figcaption>
