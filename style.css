@@ -81,9 +81,11 @@ nav
     margin:5% 10% 10% 10%;
     border: 10px double maroon;
 }
-.DOMfigure
+.DOMfigure, #figureType
 {
     display: none;
+    height: 0px;
+
 }
 figure
 {
