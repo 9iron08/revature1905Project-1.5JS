@@ -54,20 +54,41 @@ main
 }
 .gridContainer
 {
+    min-height: 320px;
     margin:5% 10% 10% 10%;
     border: 2px solid black;
 }
 figure
 {
     border: 2px solid black;
-  
+    display: none;
+}
+.buttonExample
+{
+    margin-left: 5%;
 }
 #operatorTable
 {
     background-color: lightsteelblue;
     display: block;
+    width:75%;
+    padding: 5%;
 }
 #operatorTable, #operatorTable thead tr th, #operatorTable tbody tr td
 {
     border: 1px black solid;
+}
+#tableContainer
+{
+    align-content: center;
+
+}
+thead, table, tbody, tr
+{
+    width:100%;
+}
+th, td
+{
+    width: 20%;
+    text-align: center;
 }

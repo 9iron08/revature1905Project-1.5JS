@@ -6,8 +6,8 @@ let clickedType = false; //create clicked boolean for typed
 btnTypeTog.addEventListener("click", () => 
 {
     //get element that will be changed
-    let exampleText = document.getElementById('figureType')
-    clickedType = !clickedType //toggle clicked boolean
+    let exampleText = document.getElementById('figureType');
+    clickedType = !clickedType; //toggle clicked boolean
     //test whether clicked is true or false
     if (clickedType)
     {
