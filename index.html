@@ -27,21 +27,17 @@
             Variables store data values. It is comparable
             to algebra. Variables in JavaScript can be
             declared with: var, let, const.
-            A semicolon is used to end the statement.
-            Comments...
-            
-        </p>
-        <p>
-            Values stored in a variable that can have multiple different
-            data types. number, string, object, undefined, boolean, null.
         </p>
     
+        <button id="btnVar" class="buttonExample">Show Example</button>
+
         <!-- Use JavaScript to show examples -->
-        <figure>
+        <figure id="figureVar">
             <figcaption>
                 <pre>
                     <code>
-
+                        var t;
+                        var x = 1;
                     </code>
                 </pre>
             </figcaption>
@@ -49,16 +45,24 @@
     </div>  
     <div class="gridContainer">
         <h2 class="subHeader">Data Types</h2>
-        <p>
-            Data Types....
+        <p class="info">
+            Values stored in a variable can have multiple different
+            data types:
+            number, string, object, undefined, boolean, null.
         </p>
         
+        <button id="btnType" class="buttonExample">Show Example</button>
         <!-- Use JavaScript to show examples -->
-        <figure>
+        <figure id="figureType">
             <figcaption>
                 <pre>
                     <code>
-                        var x = 1;
+                        var x;          //undefined
+                        var y = null;   //null
+                        var t = "hello" //string
+                        var l = {};     //object
+                        var f = true;   //boolean
+                        var n = 1024;   //number
                     </code>
                 </pre>
             </figcaption>
@@ -66,4 +70,5 @@
     </div>
     </main>
 </body>
+<script src="dom.js"></script>
 </html>

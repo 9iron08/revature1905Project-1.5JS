@@ -43,9 +43,23 @@ main
     background-color: turquoise;
     display:block;
     text-align: center;
+    margin-top: 0%;
 }
 .info
 {
     background-color: yellow; 
+    margin: 0px 5%;
     display: block;
+    margin-bottom: 5%;
 }
+.gridContainer
+{
+    margin:5% 10% 10% 10%;
+    border: 2px solid black;
+}
+figure
+{
+    border: 2px solid black;
+    display: none;
+}
+
